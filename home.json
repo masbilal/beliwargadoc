@@ -4,7 +4,7 @@
 	"page": 1,
 	"perpage": 6,
 	"sortby": "distance",
-	"direction": "ASC" /* ASC: ascending, DESC: descending */
+	"direction": "ASC" // ASC: ascending, DESC: descending
 }
 
 // RESPON SUKSES

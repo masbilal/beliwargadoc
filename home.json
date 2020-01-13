@@ -1,0 +1,30 @@
+// REQUEST WITH METHOD POST
+{
+	"token":"786hgx7882t7ng7t78",
+	"page": 1,
+	"perpage": 6,
+	"sortby": "distance",
+	"direction": "ASC" /* ASC: ascending, DESC: descending */
+}
+
+// RESPON SUKSES
+{
+   "sukses": true,
+   "hasil": [
+		{
+			"id":1,
+			"nama": "Toko Kelontong Dua Tiga Empat",
+			"alamat": "Jl Lurus No 2, Grogol, Sukoharjo",
+			"kota": "Sukoharjo",
+			"jarak": "2.3 km",
+			"rating": 4.9,
+			"foto": "https://cdn.beliwarga.com/uploads/86989158963.jpg"
+		},
+   ]
+}
+
+// RESPON GAGAL
+{
+   "sukses": false,
+   "msg": "Akses ditolak"
+}

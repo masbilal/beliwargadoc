@@ -4,14 +4,16 @@
 	"token":"786hgx7882t7ng7t78",
 	"page": 1,
 	"perpage": 6,
+	"lat": -7.617336,
+	"long": 110.820068,
 	"sortby": "distance",
 	"direction": "ASC" // ASC: ascending, DESC: descending
 }
 
 // RESPON SUKSES
 {
-   "sukses": true,
-   "hasil": [
+	"sukses": true,
+	"hasil": [
 		{
 			"id":1,
 			"nama": "Toko Kelontong Dua Tiga Empat",

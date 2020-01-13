@@ -2,21 +2,39 @@
 // URL: https://api.beliwarga.com/bisniswarga_list
 {
 	"token":"786hgx7882t7ng7t78",
-	"bisnis_id": 1,
+	"bisnis_id": 1
 }
 
 // RESPON SUKSES
 {
-   "sukses": true,
-   "hasil": 
+	"sukses": true,
+	"bisnis_id": 1,
+	"hasil": 
 		{
 			"id":1,
 			"nama": "Toko Kelontong Dua Tiga Empat",
 			"alamat": "Jl Lurus No 2, Grogol, Sukoharjo",
 			"kota": "Sukoharjo",
-			"jarak": "2.3 km",
 			"rating": 4.9,
-			"foto": "https://cdn.beliwarga.com/uploads/869891589631342.jpg"
+			"lat": -7.617336,
+			"long": 110.820068,
+			"hargamin": 20000,
+			"hargamax": 25000,
+			"foto": [
+				{
+					"nama":"https://cdn.beliwarga.com/uploads/869891589631342.jpg",
+					"caption": "Toko tampak depan"
+				},
+				{
+					"nama":"https://cdn.beliwarga.com/uploads/869891589631343.jpg",
+					"caption": "Produk jualan"
+				},
+				{
+					"nama":"https://cdn.beliwarga.com/uploads/869891589631344.jpg",
+					"caption": "Pemilik Toko"
+				},
+				.... dan seterusnya
+			]
 		}
 }
 

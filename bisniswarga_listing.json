@@ -4,6 +4,8 @@
 	"token":"786hgx7882t7ng7t78",
 	"page": 1,
 	"perpage": 12,
+	"lat": -7.617336,
+	"long": 110.820068,
 	"sortby": "distance",
 	"direction": "ASC",
 	"filter":{
@@ -18,8 +20,8 @@
 
 // RESPON SUKSES
 {
-   "sukses": true,
-   "filter":{
+	"sukses": true,
+	"filter":{
 		"prov":123,
 		"kab":1234,
 		"kec":12345,
@@ -27,7 +29,7 @@
 		"kategori":23,
 		"cari": "toko besi"
 	},
-   "hasil": [
+	"hasil": [
 		{
 			"id":1,
 			"nama": "Toko Kelontong Dua Tiga Empat",
@@ -47,7 +49,7 @@
 			"foto": "https://cdn.beliwarga.com/uploads/8698915896348927.jpg"
 		},
 		.... dan seterusnya
-   ]
+	]
 }
 
 // RESPON GAGAL

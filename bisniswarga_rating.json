@@ -1,0 +1,40 @@
+// REQUEST WITH METHOD POST
+// URL: https://api.beliwarga.com/bisniswarga_rating
+{
+	"token":"786hgx7882t7ng7t78",
+	"page": 1,
+	"perpage": 12,
+	"bisnis_id":10,
+	"sortby": "date",
+	"direction": "DESC"
+}
+
+// RESPON SUKSES
+{
+	"sukses": true,
+	"bisnis_id": 10,
+	"page": 1,
+	"hasil": [
+		{
+			"id":1,
+			"nama": "Supardi",
+			"komen": "Mantab jiwa melegenda tokonya selalu laris apalagi setelah online di beliwarga",
+			"rating": 5,
+			"foto": "https://cdn.beliwarga.com/uploads/869891589631342.jpg"
+		},
+		{
+			"id":1,
+			"nama": "Maryadi",
+			"komen": "sukses terus buat tokonya, semakin laris karena gabung di beliwarga",
+			"rating": 5,
+			"foto": "https://cdn.beliwarga.com/uploads/869891589631342.jpg"
+		},
+		.... dan seterusnya
+   ]
+}
+
+// RESPON GAGAL
+{
+   "sukses": false,
+   "msg": "Akses ditolak"
+}

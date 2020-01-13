@@ -1,5 +1,5 @@
 // REQUEST WITH METHOD POST
-// URL: https://api.beliwarga.com/bisniswarga_slider
+// URL: https://api.beliwarga.com/bisniswarga_popup
 {
 	"token":"786hgx7882t7ng7t78"
 }
@@ -12,13 +12,7 @@
 			"id":1,
 			"link": "https://beliwarga.com/promo",
 			"foto": "https://cdn.beliwarga.com/uploads/869891589631342.jpg"
-		},
-		{
-			"id":1,
-			"link": "https://beliwarga.com/bisnis/toko234",
-			"foto": "https://cdn.beliwarga.com/uploads/8698915896348927.jpg"
-		},
-		.... dan seterusnya
+		}
    ]
 }
 

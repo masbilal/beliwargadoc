@@ -1,0 +1,29 @@
+// REQUEST WITH METHOD POST
+// URL: https://api.beliwarga.com/bisniswarga_slider
+{
+	"token":"786hgx7882t7ng7t78"
+}
+
+// RESPON SUKSES
+{
+   "sukses": true,
+   "hasil": [
+		{
+			"id":1,
+			"link": "https://beliwarga.com/promo"
+			"foto": "https://cdn.beliwarga.com/uploads/869891589631342.jpg"
+		},
+		{
+			"id":1,
+			"link": "https://beliwarga.com/bisnis/toko234"
+			"foto": "https://cdn.beliwarga.com/uploads/8698915896348927.jpg"
+		},
+		.... dan seterusnya
+   ]
+}
+
+// RESPON GAGAL
+{
+   "sukses": false,
+   "msg": "Akses ditolak"
+}

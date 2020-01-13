@@ -1,4 +1,5 @@
 // REQUEST WITH METHOD POST
+// URL: https://api.beliwarga.com/bisniswarga_list
 {
 	"token":"786hgx7882t7ng7t78",
 	"page": 1,
@@ -18,8 +19,18 @@
 			"kota": "Sukoharjo",
 			"jarak": "2.3 km",
 			"rating": 4.9,
-			"foto": "https://cdn.beliwarga.com/uploads/86989158963.jpg"
+			"foto": "https://cdn.beliwarga.com/uploads/869891589631342.jpg"
 		},
+		{
+			"id":1,
+			"nama": "Toko Bahan Bangunan Mitra Taruna Abadi (MTA)",
+			"alamat": "Jl Metu Kono Belok Kiri Lurus Wae, Pasarkliwon, Surakarta",
+			"kota": "Sukoharjo",
+			"jarak": "3 km",
+			"rating": 4.9,
+			"foto": "https://cdn.beliwarga.com/uploads/8698915896348927.jpg"
+		},
+		.... dan seterusnya
    ]
 }
 

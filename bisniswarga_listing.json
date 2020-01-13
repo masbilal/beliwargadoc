@@ -1,0 +1,57 @@
+// REQUEST WITH METHOD POST
+// URL: https://api.beliwarga.com/bisniswarga_list
+{
+	"token":"786hgx7882t7ng7t78",
+	"page": 1,
+	"perpage": 12,
+	"sortby": "distance",
+	"direction": "ASC",
+	"filter":{
+		"prov":123,
+		"kab":1234,
+		"kec":12345,
+		"radius":20000,
+		"kategori":23,
+		"cari": "toko besi"
+	}
+}
+
+// RESPON SUKSES
+{
+   "sukses": true,
+   "filter":{
+		"prov":123,
+		"kab":1234,
+		"kec":12345,
+		"radius":20000,
+		"kategori":23,
+		"cari": "toko besi"
+	},
+   "hasil": [
+		{
+			"id":1,
+			"nama": "Toko Kelontong Dua Tiga Empat",
+			"alamat": "Jl Lurus No 2, Grogol, Sukoharjo",
+			"kota": "Sukoharjo",
+			"jarak": "2.3 km",
+			"rating": 4.9,
+			"foto": "https://cdn.beliwarga.com/uploads/869891589631342.jpg"
+		},
+		{
+			"id":1,
+			"nama": "Toko Bahan Bangunan Mitra Taruna Abadi (MTA)",
+			"alamat": "Jl Metu Kono Belok Kiri Lurus Wae, Pasarkliwon, Surakarta",
+			"kota": "Sukoharjo",
+			"jarak": "3 km",
+			"rating": 4.9,
+			"foto": "https://cdn.beliwarga.com/uploads/8698915896348927.jpg"
+		},
+		.... dan seterusnya
+   ]
+}
+
+// RESPON GAGAL
+{
+   "sukses": false,
+   "msg": "Akses ditolak"
+}

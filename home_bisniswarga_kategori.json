@@ -1,0 +1,31 @@
+// REQUEST WITH METHOD POST
+// URL: https://api.beliwarga.com/bisniswarga_kategori
+{
+	"token":"786hgx7882t7ng7t78"
+}
+
+// RESPON SUKSES
+{
+   "sukses": true,
+   "hasil": [
+		{
+			"id":1,
+			"nama": "Fashion",
+			"jumlah_bisnis": 200,
+			"foto": "https://cdn.beliwarga.com/uploads/869891589631342.jpg"
+		},
+		{
+			"id":1,
+			"nama": "Toko Bahan Bangunan",
+			"jumlah_bisnis": 50,
+			"foto": "https://cdn.beliwarga.com/uploads/8698915896348927.jpg"
+		},
+		.... dan seterusnya
+   ]
+}
+
+// RESPON GAGAL
+{
+   "sukses": false,
+   "msg": "Akses ditolak"
+}
